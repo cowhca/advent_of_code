@@ -20,10 +20,6 @@ const main = async () => {
     } else {
       curMarker = curMarker.slice(letterIndex + 1) + letter;
     }
-    if (!curMarker.includes(letter)) {
-      curMarker += letter;
-    } else {
-    }
   }
 };
 
